@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fff;
+  font-family: "Inter", sans-serif;
+  color: #161616;
+}
+
+a {
+  color: #4d4d4d;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.4rem;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+h2 {
+  color: #161616;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.selected {
+  text-decoration: underline;
+}
+
+.app {
+  background-color: #fff;
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.nav {
+  display: flex;
+  padding: 2.25rem 1.6rem;
+  justify-content: space-between;
+  background-color: #fff7ed;
+
+  &__links {
+    display: flex;
+    gap: 1rem;
+  }
+
+  h1 {
+    font-weight: 900;
+    font-size: 1.58rem;
+    color: #000;
+  }
+}
+
+.full-width-hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.4rem;
+  padding: 4rem 1.6rem;
+  min-height: 14rem;
+
+  background-position: center;
+  background-size: cover;
+
+  color: #fff;
+  text-align: center;
+  font-size: 1rem;
+  font-weight: 500;
+
+  p {
+    margin-bottom: 2rem;
+  }
+}
+
+.home-image {
+  background-image: url("../images/image53.png");
+}
+
+.about-image {
+  background-image: url("../images/image55.png");
+}
+
+.large-header {
+  font-size: 2.25rem;
+  font-weight: 800;
+}
+
+.button {
+  border-radius: 0.3125rem;
+  background: #ff8c38;
+  border: none;
+  color: #fff;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  line-height: 1.9rem;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  display: inline-block;
+  width: auto;
+  display: inline-block;
+
+  &--dark {
+    background-color: #000;
+
+    &:hover {
+      background: #ff8c38;
+    }
+  }
+
+  &--home {
+    width: 100%;
+  }
+
+  &:hover {
+    background-color: #000;
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #aaa;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.4rem;
+  min-height: 4.6rem;
+  background-color: #252525;
+}
+
+.container {
+  padding: 3rem 1.68rem;
+  &--dark {
+    background-color: #ffcc8d;
+  }
+}
+
+.flex {
+  display: flex;
+}
+
+.flex--column {
+  flex-direction: column;
+  gap: 1.8rem;
+}
+
+.header {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+}
